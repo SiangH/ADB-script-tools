@@ -1,6 +1,15 @@
 @echo off
 :LOOP
-Set /p I=Please Input Num(1.home 2.appSwitch 3.back 4.power 5.VolumeDown 6.VolumeUp 7.VolumeMute 8.VolumeMax)
+echo 1.homeKEY
+echo 2.appSwitchKEY
+echo 3.Back
+echo 4.Power
+echo 5.VolumeDown
+echo 6.VolumeUp
+echo 7.VolumeMute
+echo 8.VolumeMax
+echo Please Input Num
+Set /p I=
 if %I% == 1 adb shell "input keyevent 3"
 if %I% == 2 adb shell "input keyevent 187"
 if %I% == 3 adb shell "input keyevent 4"
