@@ -2,7 +2,6 @@
 ALL adb common used command
 Only for Windows Users Now
 ---------------------------------------------------
-v2.0
 First Select page
 A.KeyScript
 B.usb mode(maybe not working)
